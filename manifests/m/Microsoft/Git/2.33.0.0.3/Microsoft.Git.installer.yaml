@@ -1,0 +1,13 @@
+# Created using wingetcreate 0.4.1.1
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.0.0.schema.json
+
+PackageIdentifier: Microsoft.Git
+PackageVersion: 2.33.0.0.3
+Installers:
+- Architecture: x86
+  InstallerType: inno
+  InstallerUrl: https://github.com/microsoft/git/releases/download/v2.33.0.vfs.0.3/Git-2.33.0.vfs.0.3-64-bit.exe
+  InstallerSha256: 49A1A935B8B1D1C80FC7B0D4D8BB929615103F8D0E3AEDFC3227B437531C45EC
+ManifestType: installer
+ManifestVersion: 1.0.0
+
